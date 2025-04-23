@@ -1,4 +1,0 @@
-# Evolvability
-*Leslie Valiant*
-
-## 
