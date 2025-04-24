@@ -116,8 +116,16 @@
 *Proposition 3.12.* If $C$ is evolvable with optimization over $D$ then $C$ is evolvable over $D$. If $C$ is evolvable with initialization and optimization over $D$, then $C$ is evolvable with initialization over $D$
 
 ## Limits to Evolvability
-
+* Does learnability imply evolvability? No.
+* The set of odd parity functions is not evolvable for uniform distribution over $\{-1, 1 \}^n$ by any representation $R$
+* If $C$ is the class of boolean threshold functions and $R$ is the given representation of it, then $C$ is not evolvable by $R$ unless $NP=RP$
+* Four impediments to evolvability. First three are impediments to learnability, last is unique to evolvability
+    * (i) Complexity of the mechanism that is evolving exceeds number of experiences in the context of information theory
+    * (ii) Learnability by a fixed representation would imply solving a computational problem that is believed to be hard
+    * (iii) Function class is so extensive that learning it by any representation would imply an efficient algorithm for a problem believed to be hard to compute
+    * (iv) In information theory, evolvability cannot proceed because no empirical test of a polynomial number of hypotheses in a neighborhood can guarantee sufficient convergence in performance
 
 ## Some Provably Evolvable Structures
+* 
 
 ## Discussion
