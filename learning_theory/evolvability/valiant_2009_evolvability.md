@@ -141,3 +141,12 @@
 * Conjunctions and disjunctions are evolvable with initialization over uniform distribution
 
 ## Discussion
+* Next steps:
+    * Whether significant classes are provably evolvable for all distributions
+    * Requirement of having performance be able to approach close to best possible can be relaxed
+        * Allows for processes where computations are feasible only for obtaining approximations to the best possible
+    * Starting point doesn't need to be arbitrary
+        * Tradeoff may exist between robustness by allowing arbitrary starting points and complexity of mechanisms that can evolve
+        * Wider classes may be evolvble in any of these less robust frameworks
+        * Can study the tradeoffs obtained by constraining the model more also, by disallowing for example neutral mutations or redundant representations or by insisting on a fixed tolerance
+* Which variants of the evolvability framework leave the class unchanged and which do not? See [Feldman 2008]
