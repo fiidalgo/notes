@@ -126,6 +126,18 @@
     * (iv) In information theory, evolvability cannot proceed because no empirical test of a polynomial number of hypotheses in a neighborhood can guarantee sufficient convergence in performance
 
 ## Some Provably Evolvable Structures
-* 
+* A conjunction or disjunction is monotone if it contains no negated literals
+* Disjunction is Boolean or and denoted by $+$
+* Conjunction is Boolean and and denoted by multiplication
+* Negation of variable $x_i$ is $x_i'$
+* Uniform distribution over $\{-1,+1\}$ denoted by $U$
+* Previous work such as [Ros 1997] and [Ros 1993] have analyzed evolutionary algorithms for learning conjunctions and disjunctions but allowed to depend on input information like number of bits on which the hypothesis and input differed
+
+*Fact 1.* Over $U$ any conjunction's probability of a particular combination is $2^{-k}$ and a disjunction is $1-2^{-k}$
+
+*Fact 2.* Probability that mean of $s$ independent random variables taking values in range $\left[a, b\right]$ is greater than or less than the mean of their expectations by more than $\delta$ is at most $\exp(-2s\delta^2/(b-a)^2)$
+
+* Monotone conjunctions and disjunctions are evolvable over uniform distribution for their natural representations
+* Conjunctions and disjunctions are evolvable with initialization over uniform distribution
 
 ## Discussion
